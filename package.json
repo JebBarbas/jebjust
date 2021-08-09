@@ -2,11 +2,11 @@
   "name": "jebjust",
   "version": "1.0.0",
   "description": "Return only what you want, the most specialized javascript module ever.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "release": "standard-version",
     "build": "tsc && browserify dist/index.js -o dist/bundle.js",
-    "test": "node dist/text.js"
+    "test": "node dist/test.js"
   },
   "repository": {
     "type": "git",

@@ -15,6 +15,5 @@ export declare type justSupportedType = any;
  * just(() => console.log(just("Hello World Again")))
  * just({foo: "bar", hello: "world"})
  */
-declare const just: (me: justSupportedType) => justSupportedType;
-export default just;
+export declare const just: (me: justSupportedType) => justSupportedType;
 //# sourceMappingURL=index.d.ts.map

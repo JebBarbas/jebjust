@@ -1,5 +1,6 @@
 "use strict";
 exports.__esModule = true;
+exports.just = void 0;
 /**
  * Uses just API to return just the thing that you want
  * @param me The thing that you want
@@ -13,9 +14,10 @@ exports.__esModule = true;
  * just(() => console.log(just("Hello World Again")))
  * just({foo: "bar", hello: "world"})
  */
-var just = function (me) {
-    return me;
-};
-eval('if(window){ window.just = just }');
-exports["default"] = just;
+var just = function (me) { return me; };
+exports.just = just;
+try {
+    eval('if(window){ window.just = just }');
+}
+catch (_a) { }
 //# sourceMappingURL=index.js.map

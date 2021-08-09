@@ -16,10 +16,6 @@ export type justSupportedType = any
  * just(() => console.log(just("Hello World Again")))
  * just({foo: "bar", hello: "world"})
  */
-const just = (me:justSupportedType):justSupportedType => {
-    return me
-}
+export const just = (me:justSupportedType):justSupportedType => me
 
-eval('if(window){ window.just = just }')
-
-export default just
+try{eval('if(window){ window.just = just }')}catch{}
