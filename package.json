@@ -1,6 +1,6 @@
 {
   "name": "jebjust",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Return only what you want, the most specialized javascript module ever.",
   "main": "dist/index.js",
   "scripts": {
